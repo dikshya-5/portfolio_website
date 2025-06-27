@@ -1,16 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-     crossorigin=""/>
-     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-     crossorigin=""></script>
-</head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+    <title>Dikshya’s Portfolio</title>
+  
+    <!-- Your styles -->
+    <link rel="stylesheet" href="ports.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  </head>
+  
+
 <body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+    <div class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">D<span>.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#projects" class="menu-btn">Projects</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li><a class="btn"
+                    href="projects and paper\dikshya_CV.pdf"
+                    download="Dikshya_Khadka_CV.pdf">My CV</a></li>
+                <li><a href="#contact">Hire Me</a></li> 
+            
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </div>
+
+    <!--- home section start --->
+    <section class="home" id="home">
+        <div class="max-width two-col">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Dikshya Khadka</div>
+                <div class="text-3">And I'm an aspiring Geomatics Engineer.</div>
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <!--- about section start --->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/WhatsApp Image 2025-04-24 at 07.18.07_eda53611.jpg" alt="Profile photo" style="width:350px; height:350px; border-radius:100%" />
+                </div>
+                <div class="column right">
+                    
+                    <p>I’m immersed in mapping, surveying, and spatial data analysis.
+                        Besides my technical studies, I love getting involved in creative design projects that turn complex data into engaging visuals.
+                        This blend of precision and creativity helps me communicate spatial insights clearly and impactfully.
+                        Curious and hands‑on, I’m always looking for new ways to apply geomatics skills beyond the classroom. I also have great leadership skills.</p>
+                     
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--- skills section start --->
+    <section id="skills" class="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills & experiences.</div>
+                    <p>I work with both maps and design. I can use surveying tools, GIS software, and Postgres SQL to turn location data into clear maps. I code basic projects in HTML, CSS, JavaScript, C, and C++. On the creative side, I was a designer for the GES Magazine team and part of the Creative Affairs team for TEDx Kathmandu University 2024, where I showed my skills in Adobe Illustrator, InDesign, and layout work. I also use Excel and Word for reports. These mixed experiences let me explain technical ideas with simple, eye‑catching visuals.</p>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    
+                    <div class="bars">
+                        <div class="info">
+                            <span>C</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line c"></div> <!-- Corrected class name -->
+                    </div>
+                    
+                    <div class="bars">
+                        <div class="info">
+                            <span>C++</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line cpp"></div> <!-- Corrected class name -->
+                    </div>
+                    
+                    <div class="bars">
+                        <div class="info">
+                            <span>Postgres SQL</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line postgres-sql"></div> <!-- Corrected class name -->
+                    </div>
+                    
+                    <div class="bars">
+                        <div class="info">
+                            <span>Java</span>
+                            <span>40%</span>
+                        </div>
+                        <div class="line java"></div> <!-- Corrected class name -->
+                    </div>
+                    
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    
+                    <div class="bars">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line javascript"></div>
+                    </div>
+                    
+                    <div class="bars">
+                        <div class="info">
+                            <span>Indesign</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line indesign"></div> <!-- Corrected class name -->
+                    </div>
+                    
+                    <div class="bars">
+                        <div class="info">
+                            <span>Adobe Illustrator</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line illustrator"></div> <!-- Corrected class name -->
+                    </div>
+                    
+                    <div class="bars">
+                        <div class="info">
+                            <span>AutoCad</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line autocad"></div> <!-- Adjusted width to match the percentage -->
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Arc GIS, QGIS</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line gis"></div> </div> <!-- Adjusted width to match the percentage -->
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--- projects section start --->
+    <section id="project" class="project">
+        <div class="max-width">
+            <h2 class="title">Projects and Papers</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <a href="projects and paper\comparision Ahp and fuzzy ahp.pdf" target="_blank">
+                        <div class="box">
+                            <img src="images\Screenshot (114).png" alt="">
+                            <div class="text">Flood Susceptibility Mapping</div>
+                            <p>Comparative analysis between Ahp and Fuzzy Ahp: A case study on flood susceptibility of Koshi River Basin </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" >
+                    <a href="projects and paper\photo.pdf" target="_blank">
+                        <div class="box">
+                            
+                            <img src="images\detailed-digital-elevation-model-created-260nw-1067625272.jpg" alt="">
+<div class="text">Digitizing features from aerial photographs for the preparation of detailed topographic maps to support accurate spatial representation and analysis.</div>
+
+                            <p>Short description of your project 2.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="projects and paper\pgrou.pdf" target="_blank">
+                        <div class="box">
+                            <img src="images\hero_directions_api.png" alt="">
+                            <div class="text">PG Routing</div>
+                            <p>Using pgRouting to find the shortest path from Biratnagar to Kathmandu University for optimized route analysis.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="projects and paper\SheetCalculator.java" target="_blank">
+                        <div class="box">
+                            <img src="images\digital-java-code-text-computer-software-coding-vector-19533161.jpg" alt="">
+                            <div class="text">Map Sheet Calculator</div>
+                            <p>Java-based GUI for calculating cadastral sheet numbers using scale and central meridian.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="projects and paper\Cadastre1F.pdf" target="_blank">
+                        <div class="box">
+                            <img src="images\hvorfor-har-vi-matriklen-902-x-508.webp" alt="">
+                            <div class="text">Danish Cadastre</div>
+                            <p>A Brief History, Process and Challenges of Cadastral Surveying: A Case Study of 
+                                Denmark </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="projects and paper\group O.pdf" target="_blank">
+                        <div class="box">
+                            <img src="images\images.jpeg" alt="">
+                            <div class="text">Land Administration</div>
+                            <p>Nepal's Land Administration: A Historical Tapestry of Continuity and Change.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
     
+
+    <!--- contact section start --->
+    <section id="contact" class="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Dikshya Khadka</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Dhulikhel, kavrepalanchowk</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">dikshyakhadka524@gmail.com</div>
+                            </div>
+                        
+                        </div>
+                        <!-- social links -->
+                         <!-- social links -->
+<div class="row social">
+    <a href="https://www.facebook.com/khadka.dikshya.73" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/dikshya-khadka-448379227/" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="https://github.com/Dikshya-art" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+    </a>
+  </div>
+  
+ 
+  
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form name="submit-to-google-sheet">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" name ="name" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="text" name = 'email' placeholder="Email" required>
+                            </div>
+                        </div>
+                       
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" name="message" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--- footer section start --->
+    <footer>
+        <span>Created by <a href="#">Dikshya Khadka</a> | <span class="far fa-copyright"></span> 2025 All rights
+            reserved.</span>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxmAV08hOmFCFsKGSsgZQ5hw1ZZO3ep46Fd1lBjD0meycdgZkCl_TzBuG0sEzjeUYRPTw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg") 
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML ="Message sent"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
 </body>
+
 </html>
